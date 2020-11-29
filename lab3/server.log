@@ -1,0 +1,23 @@
+ERROR 2020-11-29 14:38:18,157 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2c80250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:39:18,227 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2c80b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:40:18,293 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f31703a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:41:18,329 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2c80d90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:42:18,398 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2c805e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:43:18,438 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2c6ca60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:44:18,505 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f3170bb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:45:18,545 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f317a400>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2020-11-29 14:46:18,610 root : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f317ac10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO 2020-11-29 14:47:18,738 root : Сервер доступний. Час на сервері: 2020-11-29T12:47:18.731
+INFO 2020-11-29 14:47:18,739 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-29 14:47:18,740 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-29 14:47:18,740 root : Ключ: date, Значення: 2020-11-29T12:47:18.731
+INFO 2020-11-29 14:47:18,741 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-29 14:47:18,741 root : Ключ: server_info, Значення: posix
+INFO 2020-11-29 14:47:18,741 root : Ключ: client_info, Значення: yarik
+INFO 2020-11-29 14:48:18,842 root : Сервер доступний. Час на сервері: 2020-11-29T12:48:18.837
+INFO 2020-11-29 14:48:18,843 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-29 14:48:18,843 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-29 14:48:18,843 root : Ключ: date, Значення: 2020-11-29T12:48:18.837
+INFO 2020-11-29 14:48:18,843 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-29 14:48:18,844 root : Ключ: server_info, Значення: posix
+INFO 2020-11-29 14:48:18,844 root : Ключ: client_info, Значення: yarik
