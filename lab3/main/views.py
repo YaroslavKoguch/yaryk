@@ -11,6 +11,6 @@ def main(request):
 def health(request):
     local_dt = datetime.now()
     name = os.name
-    client = os.getlogin()
+    client = os.uname()[1]
     response = {'date': local_dt, 'current_page': request.build_absolute_uri(), 'server_info': name, 'client_info': client }
     return JsonResponse(response)
